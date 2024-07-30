@@ -1,0 +1,116 @@
+
+IAK----------------------SLBK_D-------------------------------
+
+
+ALTER TABLE "DBXNET"."IAP_D" ADD CONSTRAINT "MTD_IAP_D_R01" FOREIGN KEY ("ORDERID")
+	  REFERENCES "DBXNET"."IAK_D" ("ORDERID") DISABLE;
+
+
+CONSTRAINT "MTD_SLBK_D_C01" CHECK ("GBUB" is not null) ENABLE
+
+
+KD01_D KDGR KGRD_M FOREIGN KEY CONTRAINT.
+
+C:\app\sdobhal\product\21c\homes\OraDB21Home1\network\admin\listener.ora
+
+
+https://hclo365.sharepoint.com/:f:/r/sites/SBDTransition839/Shared%20Documents/Digital%20and%20CRM/Project-KS/Ecommerce/MTD%20Outdoor/Foss%20Migration/Functional%20Design/DB%20Analysis/Manual%20Data?csf=1&web=1&e=G5OOSe
+
+
+https://sbdinc.visualstudio.com/DealerPortal_Foss_EMEA/_git/DealerPortalStruts.git?version=GBDB_Script_Changes
+
+DECLARE
+        BEGIN
+                DBXNET.CREDIT_RECEIVABLES.POPULATE_CR();
+                --DBMS_OUTPUT.PUT_LINE(procId);
+        END;
+
+DECLARE
+        BEGIN
+                DBXNET.CREDIT_RECEIVABLES.POPULATE_CR_BACK_UP();
+                --DBMS_OUTPUT.PUT_LINE(procId);
+        END;
+
+SELECT *  FROM DBXNET.ULI_M WHERE trim(BENUTZER) LIKE 
+'Rel2dealer';
+--'%Singendonk%');
+
+UPDATE
+        DBXNET.ULI_M
+SET
+        STATUS_KZ   = 00, -- D COLUMN OF ADMIN ACTION
+        BER_GRP     = 'H', -- E COLUMN OF ADMIN ACTION
+        VERT_NR     = 0, -- F COLUMN  OF ADMIN ACTION
+        SAP_VERT_NR = '0'
+WHERE
+        trim(BENUTZER) = 'Rel2dealer'; -- A COLUMN OF ADMIN ACTION
+COMMIT;
+
+https://sbdinc.visualstudio.com/DealerPortal_Foss_EMEA/_git/DealerPortalStruts.git?path=%2FDBScripts&version=GBDB_Script_Changes
+
+http://saavlt-portal03:8080/linkProcess/linkFromNavigation.action?currentLink=welcome&currentLinkText=Home
+
+
+
+
+
+
+SELECT BENUTZER, PASSWORD, BER_GRP, BER_GRP_CULI, FA_NR, KTO_NR, VEEH, VERT_NR, ET_FW_CD, ADRESSE_1, ADRESSE_2, ADRESSE_3, ADRESSE_4, ADRESSE_5, KONTAKTPERSON, MAILADRESSE, TELEFON, TELEFAX, LAST_LOGON, ANZ_LOGON_OK, ANZ_LOGON_NOK, KENNZLX50, LANGUAGEID, LANGUAGEID_XCS, LANG_BULL_PNTS, PIM_LANGUAGEID, PIMUSER, DATUMSFORMAT, DAT_FIRST_WC, DAT_FIRST_ORDER, MASTERUSER, DAT_REGISTER, FA_NR_KONSL, STATUS_KZ, ENTRIES_ON_PAGE
+FROM DBXNET.ULI_M WHERE TRIM(BENUTZER) IN ('Friedl',      
+'fkubi_AU_V',  
+'jschlaffer',  
+'kreer',       
+'schwoedi89',  
+'whalbigV');
+
+
+SELECT BENUTZER,BER_GRP, STATUS_KZ, KTO_NR, VERT_NR, SAP_CUST_NUMBER, SAP_VERT_NR, SALES_ORG FROM  DBXNET.ULI_M WHERE TRIM(BENUTZER) IN ('Friedl',      
+'fkubi_AU_V',  
+'jschlaffer',  
+'kreer',       
+'schwoedi89',  
+'whalbigV');
+
+
+SELECT * FROM DBXNET.SAPCUST_KTO_MAP WHERE KTO_NR = 35053760;
+
+SELECT * FROM DBXNET.PERSAD_D  WHERE KTO_NR = 35053760;
+
+SELECT * FROM DBXNET.SAPVERT_MAP WHERE VERT_NR = 90000007;
+
+DELETE FROM DBXNET.GAZK_LP_D WHERE ORDAT_SEQUENCE = 69;
+
+UPDATE
+        DBXNET.ULI_M
+SET
+        STATUS_KZ   = 00, -- D COLUMN OF ADMIN ACTION
+        --BER_GRP     = 'H', -- E COLUMN OF ADMIN ACTION
+        --VERT_NR     = 0, -- F COLUMN  OF ADMIN ACTION
+        SAP_VERT_NR = 'ATMTD05',
+        --SAP_CUST_NUMBER = '0001367132',
+        SALES_ORG = 'AT01'
+WHERE
+        TRIM(BENUTZER) = 'fkubi_AU_V'; -- A COLUMN OF ADMIN ACTION
+COMMIT;
+
+
+C:\Users\sdobhal\AppData\Local\Programs\Python\Python312
+
+
+
+User - ORDAT_NEW
+pass Fossbest@2233
+
+https://portal.mtdproducts.eu/
+746-05042
+
+http://saavlt-portal03:8080/
+User name: madhavAdmin 
+Password:    b91bad52-7e7
+
+SQLPLUS ordat/tadro@srlvlp-ora01:1521/FOSS
+
+
+atulAdmin / India@123
+412115!SBDInc
+SXD0129

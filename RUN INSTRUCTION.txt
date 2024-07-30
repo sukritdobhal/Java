@@ -1,0 +1,17 @@
+1. RESTRICT USERS---> RESTRICT_USERS.SQL
+-----------------------------------------------DRY RUN TESTED ONLY-----------------------------
+2. RUN master_ddl_rel1.sql
+3. LOAD DATA FROM CSVs.
+4. RUN PRE_SAP_SAPCUST1.SQL
+5. RUN IAK_ORDER.SQL
+6. RUN PRE_SAP_DML_ORDERS.SQL
+6B. POST_ORDER_IAK.SQL
+6. PRE_SAP_DML_WARRANTY3.SQL
+5. RUN CR_PACAKAGE.SQL
+6. RUN DEL_SLBK_D.SQL
+7. RUN JOBS.SQL
+8. RUN POST SAP DML.
+9. RUN BRAND_UPDATE.SQL
+10. RUN SHIPPING_UPDATE.SQL
+----------------------------------------------------------------------------------------------------------------------------------------
+11. ENABLE USERS --> RESTRICT_USERS.SQL
